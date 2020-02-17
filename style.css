@@ -16,13 +16,3 @@
   background-color: rgb(66, 221, 208);
   margin-left: 1px;
 }
-
-#nums {
-  display: flex;
-}
-
-.num {
-  width: 10vw;
-  text-align: center;
-  margin-left: 1px;
-}
