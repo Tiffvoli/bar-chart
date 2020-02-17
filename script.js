@@ -18,10 +18,10 @@ function setHeight() {
   for (let i = 0; i < num.length; i++) {
     bar = document.querySelector(`#bars > div:nth-child(${i + 1})`);
     bar.style.setProperty("--height", num[i]);
-    numofbar = document.querySelector(`#nums > div:nth-child(${i + 1})`);
+    numofbar = document.querySelector(`#bars > div:nth-child(${i + 1})`);
     numofbar.textContent = num[i];
   }
-  document.querySelectorAll("#nums > div").forEach(
+  document.querySelectorAll("#bar > div").forEach(
     (numofbar, i) =>
       function() {
         numofbar.innerHTML = num[i];
